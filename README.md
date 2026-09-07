@@ -2,6 +2,23 @@
 
 _This work has been accepted at KDD 2026, JeJu Island, South Korea._
 
+```
+@inproceedings{10.1145/3770855.3817595,
+   author = {Pederzoli, Sara and Santacroce, Marta and Guerra, Francesco and Bergianti, Marco and Del Buono, Francesco},
+   title = {FinBench: A Benchmarking Framework for Stock Market Prediction and Portfolio Allocation},
+   year = {2026},
+   isbn = {9798400722592},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   url = {https://doi.org/10.1145/3770855.3817595},
+   doi = {10.1145/3770855.3817595},
+   pages = {9661–9672},
+   numpages = {12},
+   location = {Republic of Korea},
+   series = {KDD '26}
+}
+```
+
 FinBench is a collection of tools, datasets and example implementations to evaluate and experiment with models and algorithms in the financial domain (time-series forecasting, ranking, portfolio simulation, factor modeling, etc.). The repository aims to provide a reproducible foundation for research, benchmarking and rapid prototyping in quantitative finance and financial machine learning.
 
 ![FinBench Architecture](finbench.png)
