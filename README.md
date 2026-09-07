@@ -1,5 +1,7 @@
 # FinBench: A Benchmarking Framework for Stock Market Prediction and Portfolio Allocation
 
+The full paper is available at this [link](https://dl.acm.org/doi/10.1145/3770855.3817595).
+
 _This work has been accepted at KDD 2026, JeJu Island, South Korea._
 
 ```
