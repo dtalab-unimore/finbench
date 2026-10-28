@@ -86,8 +86,8 @@ def demo_portfolio_evaluation(args):
         pred_paths,
         top_k=args.top_k,
         short_k=args.short_k,
-        start_date=args.initial_year,
-        end_date='2024-12-31',
+        start_date=f'{args.start_year}-01-01',
+        end_date=f'{max(args.configurations_by_year)}-12-31',
         freq=f'{args.pl}B',
         verbose=True
     )
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     args = ArgumentParser()
     args.add_argument('--universe', type=str, default='sx5e', help='Universe', required=True)
     args.add_argument('--model', type=str, default='MASTER', help='Model name', required=True)
-    args.add_argument("--initial_year", type=int, default=2021, required=True)
+    args.add_argument('--initial_year', type=int, default=2021, required=True)
     args.add_argument('--seed', type=int, default=0, help='Random seed')
     args.add_argument('--type', type=str, default='Regression', choices=['Regression', 'Classification', 'Ranking'], help='Prediction type')
     args.add_argument('--sl', type=int, default=5, help='sequence length')
