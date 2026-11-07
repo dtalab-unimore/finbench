@@ -21,6 +21,26 @@ _This work has been accepted at KDD 2026, JeJu Island, South Korea._
 }
 ```
 
+_On top of this work, we also presented AEQUITAS at CIKM 2026, Rome, Italy. Please cite both._
+
+```
+@inproceedings{10.1145/3799682.3840240,
+  author = {Pederzoli, Sara and Santacroce, Marta and Del Buono, Francesco and Bergianti, Marco and Guerra, Francesco},
+  title = {AEQUITAS: A Toolkit for Stock Market Prediction and Portfolio Evaluation},
+  year = {2026},
+  isbn = {9798400725395},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3799682.3840240},
+  doi = {10.1145/3799682.3840240},
+  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management},
+  pages = {9218–9222},
+  numpages = {5},
+  location = {Rome, Italy},
+  series = {CIKM '26}
+}
+```
+
 FinBench is a collection of tools, datasets and example implementations to evaluate and experiment with models and algorithms in the financial domain (time-series forecasting, ranking, portfolio simulation, factor modeling, etc.). The repository aims to provide a reproducible foundation for research, benchmarking and rapid prototyping in quantitative finance and financial machine learning.
 
 ![FinBench Architecture](finbench.png)
