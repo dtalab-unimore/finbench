@@ -22,6 +22,7 @@ _This work has been accepted at KDD 2026, JeJu Island, South Korea._
 ```
 
 _On top of this work, we also presented AEQUITAS at CIKM 2026, Rome, Italy. Please cite both._
+The full paper is available at this [link](https://dl.acm.org/doi/10.1145/3799682.3840240)
 
 ```
 @inproceedings{10.1145/3799682.3840240,
